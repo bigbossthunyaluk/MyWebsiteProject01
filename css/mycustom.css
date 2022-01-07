@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+
+body{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.MYfontconfig{
+    font-family: 'Prompt', sans-serif;
+    font-weight:500;
+}
+
+.MYfontconfigH1{
+    font-family: 'Prompt', sans-serif;
+    font-weight:bolder;
+}
+
+.TEXTGradian{
+    color :#d1527f;
+}
+
+.formSET{
+    font-family: 'Prompt', sans-serif;
+    font-weight:500;
+    font-size: 40px;
+}
+
+.MYbtn{
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #d1527f;
+    color: #fff;
+    font-size: 25px;
+    border-color: #d1527f;
+    border-radius: 5px;
+    box-shadow: #9c2b53;
+    
+}
+
+.MYbtn:hover{
+    background-color: #ec7aa2;
+    color: #fff;
+    border-color: #d1527f;
+    transition: 0.3s ease-in-out;
+}
+
+.TEXTcolor{
+    color: #ec7aa2;
+}
+
+.TEXTcolor2{
+    color: #fe9d83;
+}
